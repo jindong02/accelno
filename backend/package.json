@@ -1,0 +1,24 @@
+{
+  "name": "accelno-api",
+  "version": "1.0.0",
+  "description": "This is the first version of the Accelno API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abdulwahab-sa",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.16.1",
+    "axios": "^1.6.5",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "prisma": "^4.16.1",
+    "stripe": "^12.10.0"
+  }
+}
